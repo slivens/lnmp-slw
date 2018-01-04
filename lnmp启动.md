@@ -23,7 +23,7 @@ REDIS_HOST=redis
 REDIS_PASSWORD=123456
 REDIS_PORT=6379
 
-7.可能遇到的小坑：
+7.启动过程中可能遇到的小坑：
 
 如果碰到：==The stream or file "/var/www/blog/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied==的权限问题
 设置 chmod 777 -R /var/www/blog/storage
