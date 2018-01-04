@@ -25,7 +25,8 @@ REDIS_PORT=6379
 
 7.启动过程中可能遇到的小坑：
 
-如果碰到：==The stream or file "/var/www/blog/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied==的权限问题
-设置 chmod 777 -R /var/www/blog/storage
+如果碰到：==The stream or file "/var/www/blog/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied==的权限问题设置 chmod 777 -R /var/www/blog/storage
+
 8.如果碰到：“predis/client” 请在laravel目录下执行 conposer require 'predis/predis'
+
 9.项目打开http//：lcoalhost/index.php
